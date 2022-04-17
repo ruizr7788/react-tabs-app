@@ -1,0 +1,38 @@
+.active {
+  background-color: lavender;
+  color: lightblue;
+}
+
+.tabs--container {
+  margin: 1em auto;
+  border-radius: 1em;
+  width: fit-content;
+}
+
+.tabs--ul {
+  border-radius: 1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #dae2ec;
+}
+
+.tabs--ul li {
+  border-radius: 1em;
+  list-style: none;
+  padding: 1.5em 4em;
+  font-size: calc(2px + 1.2vmin);
+}
+
+.tabs--ul li:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.description {
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em 2em;
+  font-size: calc(2px + 1.2vmin);
+}

@@ -1,0 +1,21 @@
+.tab-image {
+  width: calc(300px + 20vmin);
+  border-radius: 1em;
+  margin: 1em;
+}
+
+.tab--component-container {
+  padding: 2em 0;
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1000px) {
+  .tab--component-container {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
